@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n;
+    cout << "n= ";
+    cin >> n;
+
+    int sum = 0;
+    for (int i = 1; i <= n; i++)
+    {
+        sum = sum + i;  //0 se n tak values ka sum hoga
+    }
+
+    cout << sum;
+}
