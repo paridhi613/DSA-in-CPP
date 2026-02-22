@@ -6,9 +6,12 @@ int main()
     int n;
     cin >> n;
 
-    do
+    int sum = 0;
+    while (n >= 0)
     {
-        cout << n;
+        sum += n;
         cin >> n;
-    } while (n > 0); //ek bar execution hoga hi anyhow.
+    }
+
+    cout << sum;
 }
