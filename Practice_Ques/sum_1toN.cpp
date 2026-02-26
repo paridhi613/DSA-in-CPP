@@ -11,8 +11,8 @@ int main()
 
     for (int i = 1; i <= n; i++)
     {
-        start = start + i;
+        start = start + i; // using for loop
     }
-    
+
     cout << start;
 }
