@@ -10,4 +10,11 @@ int main(){
     cout<<marks[2]<<endl;
     cout<<marks[3]<<endl;
     cout<<marks[4]<<endl;
+
+
+
+    //to find the size of the array
+    float price[]={34.2, 56.4, 78.9};
+
+    cout<<sizeof(price)/sizeof(float)<<endl;
 }
