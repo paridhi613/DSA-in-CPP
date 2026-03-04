@@ -12,7 +12,7 @@ int main()
     {
         if (nums[i] < smallest)
         {
-            smallest = nums[i];
+            smallest = nums[i];       // smallest =  min(nums[i],smallest);  //shortcut to find min
         }
     }
 

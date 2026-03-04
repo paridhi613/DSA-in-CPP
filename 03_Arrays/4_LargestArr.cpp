@@ -12,7 +12,7 @@ int main()
     {
         if (nums[i] > largest)
         {
-            largest = nums[i];
+            largest = nums[i];    //largest = max(nums[i], largest); //shortcut to find max of these two
         }
     }
     cout << "largest: " << largest << endl;
