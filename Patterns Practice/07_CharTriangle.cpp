@@ -1,6 +1,18 @@
 #include <iostream>
 using namespace std;
 
+/*
+     TO PRINT:
+
+     A
+     B B
+     C C C
+     D D D D
+
+     for n=4
+     
+*/
+
 int main()
 {
     int n;
