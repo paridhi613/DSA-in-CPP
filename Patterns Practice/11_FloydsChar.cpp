@@ -17,14 +17,14 @@ int main()
     cout << "enter the value: ";
     cin >> n;
 
-    char ch = 'A';
+    char ch = 'A';       //for printing charcters //outside loop coz dont wanna reset it everytime
 
     for (int i = 0; i < n; i++)
     {
         for (int j = 0; j < i + 1; j++)
         {
             cout << ch << " ";
-            ch++;
+            ch++;                 //char inc by 1 evrytime
         }
         cout << endl;
     }
