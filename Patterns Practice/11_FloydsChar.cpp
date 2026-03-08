@@ -1,6 +1,16 @@
 #include <iostream>
 using namespace std;
 
+/*
+        OUTPUT:
+        A
+        B C
+        D E F
+        G H I J
+
+        for n=4
+*/
+
 int main()
 {
     int n;
