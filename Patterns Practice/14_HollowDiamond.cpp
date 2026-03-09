@@ -1,6 +1,20 @@
 #include <iostream>
 using namespace std;
 
+/*
+            OUTPUT:
+              *
+             *  *
+            *    *
+           *      *
+            *    *
+             *  *
+               *    
+               
+               for n=4
+               
+*/
+
 int main()
 {
     int n;
