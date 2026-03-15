@@ -1,16 +1,17 @@
 #include <iostream>
 using namespace std;
 
+//function to find the target in a array
 int linerSearch(int arr[], int size, int target)
 {
     for (int i = 0; i < size; i++)
     {
-        if (arr[i] == target)
+        if (arr[i] == target)  // target is found 
         {
-            return i;
+            return i;    //returns the index
         }
     }
-    return -1;
+    return -1;   //if not found returns -1
 }
 
 int main()
