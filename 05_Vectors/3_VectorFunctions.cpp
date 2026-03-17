@@ -10,6 +10,7 @@ int main()
     cout << "size = " << vec.size() << endl;
     cout << endl;
 
+
     // push_back function
     vector<int> vec2;
     cout << "size= " << vec2.size() << endl;
@@ -23,4 +24,28 @@ int main()
     }
     cout << endl;
     cout << "size after pushing= " << vec2.size() << endl;
+    cout<<endl;
+
+    
+
+    //pop_back function
+    vector<int>vec3;
+    vec3.push_back(56);
+    vec3.push_back(57);
+    vec3.push_back(58);
+    cout<<"push: "<<endl;
+
+    for(int a:vec3){
+        cout<<a<<" ";
+    }
+    cout<<endl;
+
+    cout<<"pop: "<<endl;
+    vec3.pop_back();
+
+    for (int a : vec3)
+    {
+        cout << a << " ";
+    }
+    cout<<endl;
 }
