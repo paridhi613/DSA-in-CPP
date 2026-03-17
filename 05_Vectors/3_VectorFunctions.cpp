@@ -50,7 +50,7 @@ int main()
     cout<<endl;
     cout << endl;
 
-    
+
 
     //front function
     cout<<"front= "<<vec2.front()<<endl;
@@ -59,4 +59,9 @@ int main()
 
     //back function
     cout<<"back= "<<vec2.back()<<endl;
+    cout<<endl;
+
+
+    //at function
+    cout<<"value at index 1= "<<vec2.at(1);
 }
