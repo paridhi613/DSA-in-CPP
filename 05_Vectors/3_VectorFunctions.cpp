@@ -26,7 +26,7 @@ int main()
     cout << "size after pushing= " << vec2.size() << endl;
     cout<<endl;
 
-    
+
 
     //pop_back function
     vector<int>vec3;
@@ -48,4 +48,15 @@ int main()
         cout << a << " ";
     }
     cout<<endl;
+    cout << endl;
+
+    
+
+    //front function
+    cout<<"front= "<<vec2.front()<<endl;
+    cout<<endl;
+
+
+    //back function
+    cout<<"back= "<<vec2.back()<<endl;
 }
