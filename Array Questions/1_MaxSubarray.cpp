@@ -2,6 +2,8 @@
 #include <vector>
 using namespace std;
 
+//printing the maxium sub arrays possible from the given array
+
 int main()
 {
     int n = 5;
