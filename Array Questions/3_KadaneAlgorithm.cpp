@@ -2,6 +2,8 @@
 #include <vector>
 using namespace std;
 
+
+//finding the sum of maximum subarray using the kadane's algorithm
 int main()
 {
 
@@ -14,7 +16,7 @@ int main()
         currSum += a;
         maxSum = max(currSum, maxSum);
 
-        if (currSum < 0)
+        if (currSum < 0)   
         {
             currSum = 0;
         }
