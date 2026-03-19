@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-// printing the sum of maxium sub arrays possible from the given array
+// printing the sum of maximum sub arrays possible from the given array
 
 int main()
 {
