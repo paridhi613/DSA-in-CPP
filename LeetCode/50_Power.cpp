@@ -2,6 +2,8 @@
 #include <vector>
 using namespace std;
 
+
+//to calculate the x^n value:
 double myPow(double x, int n)
 {
     long binForm = n;
