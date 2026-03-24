@@ -7,10 +7,10 @@ using namespace std;
 double myPow(double x, int n)
 {
     long binForm = n;
-    if (n < 0)
+    if (n < 0)                      //if the power is negative
     {
-        x = 1 / x;
-        binForm = -binForm;
+        x = 1 / x;                   //reverse the x
+        binForm = -binForm;          //make the negative power positive
     }
 
     double ans = 1;
