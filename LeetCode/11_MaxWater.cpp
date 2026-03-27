@@ -17,8 +17,8 @@ int main()
             int w = j - i;                            //to find the base
             int ht = min(height[i], height[j]);       //the height will the min of left and right 
 
-            int area = w * ht;                        //water available will be
-            maxWater = max(maxWater, area);           //the max of all the areas will be calculated
+            int currWater = w * ht;                        //water available will be
+            maxWater = max(maxWater, currWater);           //the max of all the areas will be calculated
         }
     }
 
