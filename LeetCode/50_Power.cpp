@@ -7,17 +7,17 @@ using namespace std;
 double myPow(double x, int n)
 {
     long binForm = n;
-    if (n < 0)                      //if the power is negative
+    if (n < 0)                        //if the power is negative
     {
-        x = 1 / x;                   //reverse the x
-        binForm = -binForm;          //make the negative power positive
+        x = 1 / x;                    //reverse the x
+        binForm = -binForm;           //make the negative power positive
     }
 
     double ans = 1;
 
-    while (binForm > 0)
+    while (binForm > 0)               //for positive powers 
     {
-        if (binForm % 2 == 1)
+        if (binForm % 2 == 1)         
         {
             ans *= x;
         }
