@@ -19,5 +19,5 @@ int main()
         bestBuy = min(prices[i], bestBuy);
     }
 
-    cout << maxProfit;
+    cout << maxProfit;                                     //the ans that is the max profit will be printed
 }
