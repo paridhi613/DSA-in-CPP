@@ -2,6 +2,8 @@
 #include <vector>
 using namespace std;
 
+
+//for printing the product of array except the index itself
 int main()
 {
     vector<int> nums = {1, 2, 3, 4};
@@ -35,4 +37,6 @@ int main()
     {
         cout << ans[i] << " ";
     }
+
+
 }
