@@ -29,6 +29,8 @@ int main()
         ans[i] = prefix[i] * suffix[i];
     }
 
+
+    //for printing the ans 
     for (int i = 0; i < n; i++)
     {
         cout << ans[i] << " ";
