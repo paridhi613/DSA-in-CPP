@@ -10,6 +10,6 @@ int main()
     cout << endl;
 
 
-    int *ptr = &a;
+    int *ptr = &a;  //pointer defined which stores the address of a
     cout << ptr;
 }
