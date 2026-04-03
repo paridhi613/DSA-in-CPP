@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void changeA(int *ptr)   //pass by reference
+void changeA(int *ptr)   //pass by reference using pointer
 {
     *ptr = 20;      //main function m jake a ki value 10 se 20 ho jaegi
 }
