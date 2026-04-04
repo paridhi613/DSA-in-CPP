@@ -13,12 +13,12 @@ int binarySearch(vector<int> arr, int tar)
 
         if (tar > arr[mid])
         {
-            st = mid + 1;
+            st = mid + 1;     //2nd half
         }
 
         else if (tar < arr[mid])
         {
-            end = mid - 1;
+            end = mid - 1;   //1st half
         }
 
         else
@@ -38,5 +38,10 @@ int main()
     cout << binarySearch(arr1, tar1) << endl;
 
     vector<int> arr2 = {-1, 0, 3, 5, 9, 12}; // even
-    int tar2 = 0;
+    int tar2 = 9;
+
+    cout << binarySearch(arr2, tar2) << endl;
+
+
+    //same approach will be used for even and odd numbers in array
 }
