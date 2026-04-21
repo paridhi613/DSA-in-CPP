@@ -31,7 +31,7 @@ bool isPossible(vector<int> &arr, int n, int m, int maxAllowed){
     while(st<=end){
         int mid = st +(end - st)/2;
 
-        if(isPossible(n , m , mid, arr))
+        if (isPossible(arr, n, m, mid))
         {
             ans= mid ;
             end = mid -1;
